@@ -8,6 +8,9 @@ router.get('/', (req,res,next) =>{
 });
 
 router.post('/', (req, res, next) =>{
+    const contact = {
+        name: req.body.name
+    }
     res.status(200).json({
         message: 'Handling POST requests to /contacts'
     });
