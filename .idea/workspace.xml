@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d306a9e-c51b-453e-91d0-9b0c3f9f2f70" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/routes/contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/contacts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/Node-js-Backeknd.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
@@ -50,6 +55,9 @@
       <option name="presentableId" value="Default" />
       <updated>1616242583885</updated>
       <workItem from="1616242585756" duration="1031000" />
+      <workItem from="1616243852209" duration="4882000" />
+      <workItem from="1616295058754" duration="91000" />
+      <workItem from="1616299056807" duration="900000" />
       <workItem from="1616243852209" duration="4023000" />
     </task>
     <servers />

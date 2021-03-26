@@ -3,10 +3,14 @@ const app = express();
 const contactRoutes = require('./api/routes/contacts');
 const detailRoutes = require('./api/routes/details');
 const morgan = require('morgan');
+const bodyParser = require('body-parser');
 
 
 //Routes
 app.use(morgan('dev'));
+app.use(bodyParser.urlencoded({extended: false}));
+app.use(bodyParser.json());
+
 app.use('/contacts', contactRoutes);
 app.use('/details', detailRoutes);
 
