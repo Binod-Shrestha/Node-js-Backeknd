@@ -1,0 +1,45 @@
+{
+  "name": "parsimmon",
+  "version": "1.6.2",
+  "description": "A monadic LL(infinity) parser combinator library",
+  "keywords": [
+    "parsing",
+    "parse",
+    "parser combinators"
+  ],
+  "author": "Jeanine Adkisson <jneen at jneen dot net>",
+  "contributors": [
+    "Brian Mock <brian@mockbrian.com>"
+  ],
+  "repository": "git://github.com/jneen/parsimmon",
+  "files": [
+    "src",
+    "build"
+  ],
+  "main": "src/parsimmon.js",
+  "browser": "build/parsimmon.umd.min.js",
+  "devDependencies": {
+    "coveralls": "^2.13.1",
+    "eslint": "^3.6.0",
+    "mkdirp": "^0.5.1",
+    "mocha": "^3.4.2",
+    "ncp": "^2.0.0",
+    "nyc": "^11.0.3",
+    "rimraf": "^2.5.4",
+    "webpack": "^2.6.1"
+  },
+  "license": "MIT",
+  "scripts": {
+    "prebuild": "rimraf build && mkdirp build",
+    "build": "webpack -p",
+    "prepublishOnly": "npm run test && npm run build",
+    "lint": "eslint src test",
+    "lint:fix": "eslint --fix src test",
+    "precoverage": "npm run test",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "pretest": "npm run lint",
+    "test": "nyc --reporter=lcov npm run test:mocha",
+    "test:mocha": "mocha -i src --ui tdd --reporter dot test/setup.js test/core/*.test.js test/laws/*.test.js",
+    "watch:test": "mocha --ui tdd --reporter min --watch test/setup.js test/core/*.test.js test/laws/*.test.js"
+  }
+}

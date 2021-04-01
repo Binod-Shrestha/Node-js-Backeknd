@@ -2,16 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d306a9e-c51b-453e-91d0-9b0c3f9f2f70" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/db.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/contact.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/contact.model.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/routes/contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/contacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,6 +61,14 @@
       <workItem from="1616243852209" duration="4882000" />
       <workItem from="1616295058754" duration="91000" />
       <workItem from="1616299056807" duration="900000" />
+      <workItem from="1616773698771" duration="239000" />
+      <workItem from="1616809394179" duration="822000" />
+      <workItem from="1616810837014" duration="5280000" />
+      <workItem from="1616846785471" duration="2840000" />
+      <workItem from="1616849791156" duration="202000" />
+      <workItem from="1616935694343" duration="37000" />
+      <workItem from="1617196695061" duration="2459000" />
+      <workItem from="1617274666714" duration="2462000" />
     </task>
     <servers />
   </component>
@@ -59,6 +79,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="698" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1617277629287">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="698" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1617277629287" />
     <state x="-1031" y="300" key="SettingsEditor" timestamp="1616243834859">
       <screen x="-1080" y="-299" width="1080" height="1920" />
     </state>
