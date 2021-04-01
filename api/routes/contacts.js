@@ -1,47 +1,11 @@
 const express = require('express');
 const router = express.Router();
+const contactController = require('../../controllers/contact.controller');
 
-router.get('/', (req,res,next) =>{
-    res.status(200).json({
-        message: 'Handling GET requests to /contacts'
-    });
-});
+//Retrieve all the contacts
+router.get('/', contactController.getAllContactList);
 
-router.post('/', (req, res, next) =>{
-    const contact = {
-        name: req.body.name
-    }
-    res.status(200).json({
-        message: 'Handling POST requests to /contacts'
-    });
-});
-
-router.get('/:contactId', (req, res, next) =>{
-    const id = req.params.contactId;
-    if(id === 'special'){
-        res.status(200).json({
-            message: 'You discovered the special ID',
-            id: id
-        });
-    } else {
-        res.status(200).json({
-            message: 'You passed an ID'
-        })
-    }
-});
-
-router.patch('/:contactId', (req, res, next) =>{
-         res.status(200).json({
-            message: 'Updated contact!'
-        });
-});
-
-//DELETE
-router.patch('/:contactId', (req, res, next) =>{
-    res.status(200).json({
-        message: 'Deleted contact!'
-    });
-});
+//Create Contact
 
 
 module.exports = router;
